@@ -49,6 +49,7 @@
           </div>
         </li>
       </ul>
+      <partial name="_LoginPartial"/>
      @* <form class="d-flex">
         <input class="form-control me-sm-2" type="text" placeholder="Search">
         <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
@@ -67,7 +68,7 @@
 
     <footer class="footer text-muted bg-primary">
         <div class="container">
-            &copy; 2021 - BulkyBookWeb
+            &copy; 2023 - BulkyBookWeb
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
@@ -75,6 +76,8 @@
     <script src="~/js/site.js" asp-append-version="true"></script>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="//cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script src="https://cdn.tiny.cloud/1/mez3gaz0djbffxlhfs80lnxb9znfrjleaeyhty1jiy1l4gdl/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
